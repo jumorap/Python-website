@@ -18,13 +18,13 @@
         <div class="navbar-collapse collapse show" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item ">
-                    <a class="nav-link" href="">Products<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{ url_for('products') }}">Products<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="">Enterpise</a>
+                    <a class="nav-link" href="{{ url_for('enterpise') }}">Enterpise</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="">Help</a>
+                    <a class="nav-link" href="{{ url_for('help') }}">Help</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="{{ url_for('about') }}">About</a>
